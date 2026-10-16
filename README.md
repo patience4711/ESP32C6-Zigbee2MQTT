@@ -12,14 +12,7 @@ Everything is done via a webinterface. Below is an example of the frontpage, sho
 
 
 # downloads
-firmware for [the cc2530](https://github.com/patience4711/ESP32-Zigbee2MQTT/blob/main/CC2530ZNP-Prod.bin)<br>
-firmware for [the cc2531](https://github.com/patience4711/ESP32-Zigbee2MQTT/blob/main/CC2531ZNP-Prod.bin)<br>
-2026-01-06 download [ESP32-Zigbee2Mqtt_v1_4](https://github.com/patience4711/ESP32-Zigbee2MQTT/blob/main/ESP32_ZIGBEE_1_4.ino.bin)<br>
-
-## simple hardware: 
- - An ESP32<br>
- - A CC2530 zigbeemodule<br>
- - A usb power supply<br>
+2026-01-06 download [ESP32C6-Zigbee2Mqtt_v0_2](https://github.com/patience4711/ESP32C6-Zigbee2MQTT/blob/main/ESP32C6_ZIGBEE_0_2.ino.bin)<br>
 
 ## what can it do
 - easy to connect to your wifi network using the captive portal.<br>
