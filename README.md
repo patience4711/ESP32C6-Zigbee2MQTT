@@ -1,10 +1,10 @@
 # ESP32C6-Zigbee2MQTT
 An **ESP32C6 based zigbee coordinator** to bridge Zigbee devices to MQTT (similar in idea to Zigbee2MQTT). 
-Works with an ESP32 + CC2530 Zigbee module to control smart bulbs, sensors, switches, etc. via MQTT. 
+. 
 ## features
 - Zigbee coordinator on **ESP32C6**
 - Integrates with **MQTT** brokers
-- Supports motion sensors, temperature sensors, smart bulbs, smart sockets
+- Currently upports motion sensors, temperature sensors, smart bulbs, smart sockets
 - Web UI for joining and controlling devices
 
 Everything is done via a webinterface. Below is an example of the frontpage, showing joined devices.<br>
