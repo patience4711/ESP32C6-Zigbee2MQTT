@@ -1,29 +1,28 @@
-# ESP32-Zigbee2MQTT
-An **ESP32 based zigbee coordinator** to bridge Zigbee devices to MQTT (similar in idea to Zigbee2MQTT). 
+# ESP32C6-Zigbee2MQTT
+An **ESP32C6 based zigbee coordinator** to bridge Zigbee devices to MQTT (similar in idea to Zigbee2MQTT). 
 Works with an ESP32 + CC2530 Zigbee module to control smart bulbs, sensors, switches, etc. via MQTT. 
 ## features
-- Zigbee coordinator on **ESP32**
+- Zigbee coordinator on **ESP32C6**
 - Integrates with **MQTT** brokers
 - Supports motion sensors, temperature sensors, smart bulbs, smart sockets
 - Web UI for joining and controlling devices
 
 Everything is done via a webinterface. Below is an example of the frontpage, showing joined devices.<br>
-![front_6_1](https://github.com/user-attachments/assets/e92021f0-b7fd-49e9-bea4-a19ee2662a60)
-
+<img width="642" height="300" alt="frontpag" src="https://github.com/user-attachments/assets/fdf6abbf-44c2-4497-9801-9567ac84e8fe" />
 
 # downloads
-2026-01-06 download [ESP32C6-Zigbee2Mqtt_v0_2](https://github.com/patience4711/ESP32C6-Zigbee2MQTT/blob/main/ESP32C6_ZIGBEE_0_2.ino.bin)<br>
+2026-10-16 download [ESP32C6-Zigbee2Mqtt_v0_2](https://github.com/patience4711/ESP32C6-Zigbee2MQTT/blob/main/ESP32C6_ZIGBEE_0_2.ino.bin)<br>
 
 ## what can it do
 - easy to connect to your wifi network using the captive portal.<br>
 - setup, join and control devices like smart lamps, smart sockets, sensors
 - everything is done via webinterface
-- devices can be controlled via mosquitto
+- devices can be controlled via mosquitto and webui
 - data is sent via mosquitto
-- it can work with domoticz so we can make it speech controlled via google home.
+- we can make a device voice controlled via domotica software (homey, etc).
 
 Below an example of the webui to control a smart bulb. This works very good.<br>
-![ESP32-Zigbee2Mqtt-bulbs](https://github.com/user-attachments/assets/83acdabb-9065-4b9d-ba8a-c8fb06770a4d)
+<img width="764" height="606" alt="rgb_ui" src="https://github.com/user-attachments/assets/6d8a6adc-392e-46a8-b8c1-826a382d8638" />
 
 ## global working
 The coordinator starts a zigbee network. Within the network, the coordinator can read and send messages to the devices, provided that they are joined. The incoming messages are state and readings data, eg temperature of a sensor.
